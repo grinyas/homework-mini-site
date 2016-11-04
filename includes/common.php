@@ -23,3 +23,11 @@ function isPageExists($page)
     return file_exists($filename)
     && is_readable($filename);
 }
+
+function isUserLogged(){
+
+}
+
+function loginUser(){
+
+}

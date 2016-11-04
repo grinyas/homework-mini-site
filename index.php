@@ -13,6 +13,6 @@ if (!empty($page)
 }
 
 
-$page = is_null($page) ? 'index' : $page;
+$page = is_null($page) ? 'login' : $page;
 
 echo renderPage($page);
