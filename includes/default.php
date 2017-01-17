@@ -12,12 +12,12 @@ $menu = <<< HTML
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="../index.php?page=home">$sitename</a>
+            <a class="navbar-brand" href="/">$sitename</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="../index.php?page=about">About</a></li>
-                <li><a href="../index.php?page=contacts">Contact</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="contacts">Contact</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>

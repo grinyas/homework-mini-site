@@ -1,8 +1,16 @@
 <?php
-
+//exit(phpinfo());/
 require 'includes/common.php';
 
+
+
+
+
 $page = !empty($_GET['page']) ? $_GET['page'] : null;
+
+$page = str_replace('.php','', $page);
+print_r($_GET);
+echo $page;
 
 
 if (!empty($page)
